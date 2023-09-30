@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Home Page</title>
+    <style>
+        /* Contact Us Section styles */
+.contact-section {
+
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color:black;
+}
+
+.contact-section p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+    </style>
+</head>
+<body>
+    
+
+    <!-- Contact Us Section -->
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, feel free to get in touch with us!</p>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Your other content goes here -->
+
+</body>
+</html>
